@@ -1,0 +1,57 @@
+(export (version D)
+  (design
+    (source /Users/cived/ee/leaf-moist-sensor/leaf-moist-sensor.sch)
+    (date "2018 July 31, Tuesday 11:37:22")
+    (tool "Eeschema (6.0.0-rc1-dev-135-gb4df06c)")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source leaf-moist-sensor.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref R4)
+      (value 330)
+      (footprint Resistors_SMD:R_0603)
+      (fields
+        (field (name Distributor) Farnell/2446656)
+        (field (name Manufacturer) MULTICOMP)
+        (field (name PartNo) MCWR06X3300FTL))
+      (libsource (lib device) (part R) (description Resistor))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 54D2209D))
+    (comp (ref R1)
+      (value 0)
+      (footprint Resistors_SMD:R_0603)
+      (datasheet ~)
+      (libsource (lib device) (part R) (description Resistor))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5B602076)))
+  (libparts
+    (libpart (lib device) (part R)
+      (description Resistor)
+      (docs ~)
+      (footprints
+        (fp R_*))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive)))))
+  (libraries
+    (library (logical device)
+      (uri "/Library/Application Support/kicad/library/device.lib")))
+  (nets
+    (net (code 1) (name /SENSOR_TRACK)
+      (node (ref R4) (pin 1)))
+    (net (code 2) (name /EXCITATION)
+      (node (ref R4) (pin 2)))
+    (net (code 3) (name GND)
+      (node (ref R1) (pin 1))
+      (node (ref R1) (pin 2)))))
