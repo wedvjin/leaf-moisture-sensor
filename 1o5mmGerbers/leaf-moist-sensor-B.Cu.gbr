@@ -1,0 +1,30 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(6.0.0-rc1-dev-135-gb4df06c)*
+G04 #@! TF.CreationDate,2018-08-02T19:39:46+03:00*
+G04 #@! TF.ProjectId,leaf-moist-sensor,6C6561662D6D6F6973742D73656E736F,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Copper,L2,Bot,Signal*
+G04 #@! TF.FilePolarity,Positive*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (6.0.0-rc1-dev-135-gb4df06c)) date 2018 August 02, Thursday 19:39:46*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 #@! TA.AperFunction,ComponentPad*
+%ADD10O,1.700000X1.700000*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ComponentPad*
+%ADD11R,1.700000X1.700000*%
+G04 #@! TD*
+G04 APERTURE END LIST*
+D10*
+G04 #@! TO.P,P1,2*
+G04 #@! TO.N,GND*
+X135390000Y-57850000D03*
+D11*
+G04 #@! TO.P,P1,1*
+G04 #@! TO.N,/EXCITATION*
+X132850000Y-57850000D03*
+G04 #@! TD*
+M02*
